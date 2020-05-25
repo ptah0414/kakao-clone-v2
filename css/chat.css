@@ -143,13 +143,17 @@
 }
 
 @keyframes pulse {
-  from {
+  0% {
     opacity: 0.9;
     transform: none;
   }
-  to {
+  50% {
     opacity: 1;
     transform: scale3d(1.1, 1.1, 1);
+  }
+  100% {
+    opacity: 0.9;
+    transform: none;
   }
 }
 
